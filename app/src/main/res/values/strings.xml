@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contact book</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="add">Add Contact</string>
+    <string name="view">View Contact</string>
+</resources>
