@@ -227,7 +227,7 @@ public class addActivity extends AppCompatActivity {
                     Address.setText(contact.getAddress());
                     Phone.setText(String.valueOf(contact.getPhone()));
                     email.setText(contact.getEmail());
-                    buttonAddUpdate.setText("Update");
+                    buttonAddUpdate.setText(R.string.update);
                 }
             });
 
@@ -314,7 +314,7 @@ public class addActivity extends AppCompatActivity {
         PerformNetworkRequest request = new PerformNetworkRequest(Api.URL_UPDATE_CONTACT, params, CODE_POST_REQUEST);
         request.execute();
         layout.setVisibility(GONE);
-       /** buttonAddUpdate.setText("Add");
+       /* buttonAddUpdate.setText("Add");
 
         firstName.setText("");
         lastName.setText("");

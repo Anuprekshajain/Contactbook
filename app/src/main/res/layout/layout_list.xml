@@ -15,6 +15,7 @@
         android:text="anu"
         android:textAllCaps="true"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_light"
         android:textStyle="bold" />
 
     <TextView
@@ -27,7 +28,9 @@
         android:text="jain"
         android:textAllCaps="true"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_light"
         android:textStyle="bold" />
+
     <TextView
         android:id="@+id/textViewAddress"
         android:layout_width="wrap_content"
@@ -35,7 +38,9 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textViewlName"
         android:text="anu"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_light" />
+
     <TextView
         android:id="@+id/textViewPhone"
         android:layout_width="wrap_content"
@@ -43,7 +48,9 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textViewAddress"
         android:text="anu"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_light" />
+
     <TextView
         android:id="@+id/textViewemail"
         android:layout_width="wrap_content"
@@ -51,7 +58,8 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textViewPhone"
         android:text="anu"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_light" />
 
     <TextView
         android:textStyle="bold"
