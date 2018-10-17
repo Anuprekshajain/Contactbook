@@ -7,8 +7,9 @@ public class Contact {
     private String Address;
     private String Phone;
     private String email;
-
-    public Contact( int id,String firstName , String lastName, String Address, String Phone, String email)
+    private String nickName;
+    
+    public Contact( int id,String firstName , String lastName, String Address, String Phone, String email, String nName)
     {
         this.id=id;
         this.firstName=firstName;
@@ -16,7 +17,8 @@ public class Contact {
         this.Address=Address;
         this.Phone=Phone;
         this.email=email;
-
+        this.nickName=nName;    
+        
     }
 
     public int getId() {
@@ -65,6 +67,14 @@ public class Contact {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+    
+    public int getNick() {
+        return nickName;
+    }
+
+    public void setNick(String nName) {
+        this.nickName = nName;
     }
 
 }
